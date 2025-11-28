@@ -1,0 +1,62 @@
+/* ===== GLOBAL RESET & TYPOGRAPHY ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #0D1B2A; /* Dark blue background */
+    color: #DCEDFF; /* Light text */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* ===== PAGE TITLE (10 KLASE) ===== */
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* ===== SUBJECT BUTTONS ===== */
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    display: block;
+    width: 300px;
+    padding: 25px;
+    margin: 15px 0;
+    background-color: #161616;
+    color: #DCEDFF;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effects for each subject button */
+  .fizikaPoga:hover {
+    background-color: #FFCCBC; /* Fizika - Light orange */
+    color: #161616;
+  }
+  
+  .vesturePoga:hover {
+    background-color: #EF9A9A; /* Vēsture - Soft red */
+    color: #161616;
+  }
+  
+  .matematikaPoga:hover {
+    background-color: #CE93D8; /* Matemātika - Lavender */
+    color: #161616;
+  }

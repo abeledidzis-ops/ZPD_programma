@@ -1,0 +1,169 @@
+
+        /* ===== GLOBAL STYLES ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Work Sans", sans-serif;
+        }
+        
+        body {
+            min-height: 100vh;
+            background-color: #0D1B2A;
+            color: #DCEDFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            height: 100vh;
+        }
+        
+        /* ===== PAGE HEADER ===== */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        /* ===== TOPIC BUTTONS CONTAINER ===== */
+        .topic-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        /* ===== TOPIC BUTTONS ===== */
+        button {
+            width: 100%;
+            padding: 25px;
+            background-color: #161616;
+            color: #DCEDFF;
+            border: none;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            padding-left: 30px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        /* Different hover colors for visual variety */
+        /* ===== EXTENDED BUTTON HOVER COLORS ===== */
+
+button:nth-child(1):hover {
+    background-color: #EF9A9A; /* Soft red */
+    color: #161616;
+}
+
+button:nth-child(2):hover {
+    background-color: #CE93D8; /* Lavender */
+    color: #161616;
+}
+
+button:nth-child(3):hover {
+    background-color: #80CBC4; /* Teal */
+    color: #161616;
+}
+
+button:nth-child(4):hover {
+    background-color: #9FA8DA; /* Periwinkle */
+    color: #161616;
+}
+
+button:nth-child(5):hover {
+    background-color: #FFE082; /* Light yellow */
+    color: #161616;
+}
+
+button:nth-child(6):hover {
+    background-color: #A5D6A7; /* Mint green */
+    color: #161616;
+}
+
+button:nth-child(7):hover {
+    background-color: #F48FB1; /* Pink */
+    color: #161616;
+}
+
+button:nth-child(8):hover {
+    background-color: #81D4FA; /* Sky blue */
+    color: #161616;
+}
+
+button:nth-child(9):hover {
+    background-color: #B39DDB; /* Light purple */
+    color: #161616;
+}
+
+button:nth-child(10):hover {
+    background-color: #FFAB91; /* Coral */
+    color: #161616;
+}
+
+button:nth-child(11):hover {
+    background-color: #90CAF9; /* Cornflower blue */
+    color: #161616;
+}
+
+button:nth-child(12):hover {
+    background-color: #C5E1A5; /* Light green */
+    color: #161616;
+}
+
+button:nth-child(13):hover {
+    background-color: #FFD54F; /* Amber */
+    color: #161616;
+}
+
+button:nth-child(14):hover {
+    background-color: #B0BEC5; /* Blue gray */
+    color: #161616;
+}
+    
+
+#testDiv {
+    width: 90%;
+    overflow-y: auto;
+    overflow-x: auto;
+    background: #060c13;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    color: #DCEDFF;
+}
+
+/* === Scrollbar Styling (Chrome, Edge, Safari) === */
+#testDiv::-webkit-scrollbar {
+  width: 10px;               /* width of vertical scrollbar */
+  height: 10px;              /* height of horizontal scrollbar */
+}
+
+#testDiv::-webkit-scrollbar-track {
+  background: transparent;    /* removes white background */
+}
+
+#testDiv::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2); /* light thumb */
+  border-radius: 10px;
+}
+
+#testDiv::-webkit-scrollbar-corner {
+  background: transparent;    /* corner where both scrollbars meet */
+}
+
+/* === Firefox === */
+#testDiv {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+
