@@ -1,0 +1,85 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "article nav nav"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 1fr 20% 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    }  
+  header, footer, article, nav {
+    padding: 1.2em;
+    background: #161616;
+    }
+  #pageHeader {
+    grid-area: header;
+    }
+  #pageFooter {
+    grid-area: footer;
+    }
+  #mainArticle { 
+    grid-area: article;      
+    }
+  #mainNav { 
+    grid-area: nav; 
+    }
+
+.navigacijasPogas{
+    display: block;  /* Makes buttons stack vertically */
+    width: 100%;     /* Makes buttons expand to full width */
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #0D1B2A;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+    color: #DCEDFF;
+    border: none;
+    border-radius: 20px;
+
+    
+}
+
+#klase10Poga:hover{
+    background-color: #FFCCBC;
+    color: #161616;
+}
+
+#klase11Poga:hover{
+    background-color: #EF9A9A;
+    color: #161616;
+}
+
+#klase12Poga:hover{
+    background-color: #CE93D8;
+    color: #161616;
+}
+
+.teksti{
+    color: #DCEDFF;
+    font-weight: bold;
+}
+
+#sakumsTeksts{
+    margin: 0;
+    font-size: 40px;
+    text-align: center
+}
+
+#izvKlasiTeksts{
+    margin:0;
+    text-align:center;
+    font-size: 30px;
+}
